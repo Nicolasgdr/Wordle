@@ -1,0 +1,4 @@
+1. Pouvoir jouer + gestion des erreurs (trop de lettres, pas dans dictionnaire, etc.)
+2. Interface fxml pour la connexion
+3. Ajout d'un menu pour démarrer une partie + ?
+4. Ajout persistance : en respectant l'architecture en couches (cf JDBC_Layers), tables : User(id, name) comme dans JDBC_Layers sans login, Game(id, user, score, state, word), Sequence comme dans JDBC_Layers avec 2 enregistrements.
